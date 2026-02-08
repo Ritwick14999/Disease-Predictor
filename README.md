@@ -63,7 +63,7 @@ Real-world medical data would be noisier and more complex.
 
 ---
 
-## 🔍 Limitations
+## Limitations
 
 - Dataset is simplified compared to real clinical data  
 - Predictions depend fully on symptom input  
@@ -72,7 +72,7 @@ Real-world medical data would be noisier and more complex.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 Some ideas I may explore later:
 - Deploy as a Streamlit app
