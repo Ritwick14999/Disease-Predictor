@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Testing and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Trained artifacts: reproducible from `dp train`, too large and too churny for git.
+artifacts/
+*.joblib
+*.pkl
+
+# Generated reports. The committed baseline lives in docs/; reports/ is scratch.
+reports/*
+!reports/.gitkeep
+
+# Data: never commit patient-shaped data, even synthetic.
+data/raw/*
+!data/raw/.gitkeep
+!data/README.md
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
